@@ -1,0 +1,61 @@
+
+# ==========================================
+# Python virtual environments
+# ==========================================
+.venv/
+venv/
+env/
+
+# ==========================================
+# Python cache and temporary files
+# ==========================================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# ==========================================
+# Jupyter temporary files
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Local environment and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Generated temporary artifacts
+# ==========================================
+*.tmp
+*.bak
+*.swp
+
+# ==========================================
+# Temporary model files
+# ==========================================
+*.pkl
+*.joblib
+
+# ==========================================
+# OS / IDE
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ==========================================
+# Temporary experiment outputs
+# ==========================================
+05_experiments/logs/debug/
+05_experiments/results/temp/
+
+# ==========================================
+# Optional local-only data
+# Uncomment if we decide not to track datasets
+# ==========================================
+# 01_data/raw/*
+# 01_data/interim/*
+# 01_data/processed/*
